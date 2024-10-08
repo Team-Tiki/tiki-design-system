@@ -1,0 +1,26 @@
+{
+  "name": "@tiki/ui",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint . --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@tiki/eslint-config": "workspace:^",
+    "@tiki/tsconfig": "workspace:^",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react-swc": "^3.5.0",
+    "globals": "^15.9.0",
+    "prettier": "^3.3.3",
+    "vite": "^5.4.8"
+  },
+  "peerDependencies": {
+    "react": "^18.3.1"
+  }
+}

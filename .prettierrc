@@ -1,0 +1,29 @@
+{
+    "plugins": ["@trivago/prettier-plugin-sort-imports"],
+  
+    "printWidth": 120,
+    "tabWidth": 2,
+    "semi": true,
+    "singleQuote": true,
+    "trailingComma": "es5",
+    "requirePragma": false,
+    "arrowParens": "always",
+    "bracketSameLine": true,
+    "endOfLine": "auto",
+  
+    "importOrder": [
+      "^react(.*)",
+      "^@tanstack/(.*)$",
+      "^@emotion/(.*)$",
+      "^axios(.*)",
+      "^msw(.*)",
+      "^@tiki/ui/$",
+      "^@tiki/color/$",
+      "^@tiki/font/$",
+      "^@tiki/icon/$",
+      "^[./]"
+    ],
+    "importOrderSeparation": true,
+    "importOrderSortSpecifiers": true
+  }
+  

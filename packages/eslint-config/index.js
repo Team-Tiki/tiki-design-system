@@ -71,7 +71,14 @@ module.exports = {
     "react/self-closing-comp": 1, // 태그 사이 아무 것도 없으면 닫힘 태그로 <div />와 같이 사용하도록
     "react/button-has-type": 0, // button 요소는 type을 가져야 함
     "react/prop-types": 0, // prop-type 지정
+    'prettier/prettier': [
+        0,
+        {
+            useTabs: false,
+        },
+    ],
   },
+
   settings: {
     react: {
       version: "detect", // 사용자가 설치한 버전을 자동으로 선택

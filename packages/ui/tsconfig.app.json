@@ -1,9 +1,10 @@
 {
-  "extends": "@tiki/tsconfig/react-components.json",
+  "extends": "tsconfig/react-components.json",
   "include": ["."],
   "exclude": ["dist", "build", "node_modules"],
   
   "compilerOptions": {
+    "rootDir": ".",
     "baseUrl": "./src",
     "paths": {
       "ui/*": ["./*"]

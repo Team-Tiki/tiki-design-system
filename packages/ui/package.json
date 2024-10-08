@@ -1,5 +1,5 @@
 {
-  "name": "@tiki/ui",
+  "name": "ui",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,9 +10,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@tiki/eslint-config": "workspace:^",
-    "@tiki/tsconfig": "workspace:^",
-    "react-dom": "^18.3.1"
+    "eslint-config": "workspace:^",
+    "react-dom": "^18.3.1",
+    "tsconfig": "workspace:^"
   },
   "devDependencies": {
     "@vitejs/plugin-react-swc": "^3.5.0",

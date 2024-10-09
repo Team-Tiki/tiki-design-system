@@ -1,5 +1,5 @@
 {
     "extends": "tsconfig/base.json",
-    "include": ["**/*.ts", "**/*.tsx", "**/*.svg"],
+    "include": ["**/*.ts", "**/*.tsx", "**/*.svg", "svgr.d.ts"],
     "exclude": ["node_modules", "dist"]
 }

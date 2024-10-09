@@ -1,4 +1,4 @@
-import { IcArrowLeftWhite, IcArrowRightWhite } from 'icon';
+import { IcArrowLeftWhite, IcArrowRightWhite } from '@tiki/icon';
 import { arrowStyle } from 'ui/components/Carousel/Carousel.style';
 
 type ArrowProps = {

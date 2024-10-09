@@ -1,6 +1,6 @@
 import { css } from "@emotion/react";
-import { colors } from "color";
-import { font } from "font";
+import { colors } from "@tiki/color";
+import { font } from "@tiki/font";
 
 export const textStyle = (isError: boolean, isNotice: boolean) => {
   const textColor = isError

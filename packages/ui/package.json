@@ -1,7 +1,8 @@
 {
   "name": "@tiki/ui",
   "version": "1.0.0",
-  "description": "",
+  "description": "tiki ui library",
+  "sideEffects": false,
   "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "@tiki/color": "workspace:^",
+    "@tiki/font": "workspace:^",
     "@tiki/icon": "workspace:^",
     "zustand": "5.0.0-rc.2"
   },

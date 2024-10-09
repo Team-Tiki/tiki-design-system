@@ -1,5 +1,5 @@
-import { colors } from "color";
-import { IcSpinner } from "icon";
+import { colors } from "@tiki/color";
+import { IcSpinner } from "@tiki/icon";
 import { rotate } from "ui/animation";
 
 interface SpinnerProps {

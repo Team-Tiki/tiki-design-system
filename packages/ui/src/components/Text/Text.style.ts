@@ -1,6 +1,6 @@
 import { css } from "@emotion/react";
 
-import { font } from "font";
+import { font } from "@tiki/font";
 import { TextProps } from "./Text";
 
 export const textStyle = (tag: Required<TextProps>["tag"]) => {

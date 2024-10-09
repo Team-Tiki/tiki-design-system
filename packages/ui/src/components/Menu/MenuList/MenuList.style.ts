@@ -1,5 +1,5 @@
 import { css } from "@emotion/react";
-import { colors } from "color";
+import { colors } from "@tiki/color";
 
 import { MenuListProps } from "ui/components/Menu/MenuList/MenuList";
 import { theme } from "ui/theme";

@@ -1,5 +1,5 @@
 {
-  "extends": "tsconfig/react-components.json",
+  "extends": "@tiki/tsconfig/react-components.json",
   "include": ["**/*.ts", "**/*.tsx"],
   "compilerOptions": {
     "baseUrl": "./src",

@@ -1,5 +1,5 @@
 {
-  "name": "ui",
+  "name": "@tiki/ui",
   "version": "1.0.0",
   "description": "",
   "main": "index.ts",
@@ -7,13 +7,16 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "license": "ISC",
-  "devDependencies": {
-    "tsconfig": "workspace:^"
-  },
   "dependencies": {
-    "color": "workspace:^",
-    "font": "workspace:^",
-    "icon": "workspace:^",
+    "@tiki/color": "workspace:^",
+    "@tiki/icon": "workspace:^",
     "zustand": "5.0.0-rc.2"
+  },
+  "devDependencies": {
+    "@tiki/tsconfig": "workspace:^"
+  },
+  "peerDependencies": {
+    "@emotion/react": "^11.13.3",
+    "react": "^18.3.1"
   }
 }

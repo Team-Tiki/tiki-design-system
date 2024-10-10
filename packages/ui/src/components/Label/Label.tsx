@@ -1,6 +1,6 @@
 import { ComponentPropsWithoutRef } from "react";
 
-import { textStyle } from "ui/components/Label/Label.style";
+import { textStyle } from "./Label.style";
 
 interface LabelProps extends ComponentPropsWithoutRef<"label"> {
   id: string;

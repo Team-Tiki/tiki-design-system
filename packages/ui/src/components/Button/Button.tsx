@@ -1,6 +1,6 @@
 import { ButtonHTMLAttributes } from "react";
 
-import { Size } from "ui/types";
+import { Size } from "../../types";
 
 import { buttonStyle, sizeStyle, variantStyle } from "./Button.style";
 

@@ -1,6 +1,6 @@
 import { ComponentPropsWithoutRef } from "react";
 
-import { textStyle } from "ui/components/SupportingText/SupportingText.style";
+import { textStyle } from "./SupportingText.style";
 
 interface SupportingTextProps extends ComponentPropsWithoutRef<"p"> {
   isError?: boolean;

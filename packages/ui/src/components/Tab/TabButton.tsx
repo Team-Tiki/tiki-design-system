@@ -4,7 +4,7 @@ import {
   tabActiveStyle,
   tabDefaultStyle,
   tabVariantStyle,
-} from "ui/components/Tab/style";
+} from "./style";
 
 export interface TabProps extends ComponentPropsWithoutRef<"li"> {
   tabId?: number;

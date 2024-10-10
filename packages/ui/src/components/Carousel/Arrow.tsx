@@ -1,5 +1,6 @@
 import { IcArrowLeftWhite, IcArrowRightWhite } from '@tiki/icon';
-import { arrowStyle } from 'ui/components/Carousel/Carousel.style';
+
+import { arrowStyle } from './Carousel.style';
 
 type ArrowProps = {
   position: 'left' | 'right';

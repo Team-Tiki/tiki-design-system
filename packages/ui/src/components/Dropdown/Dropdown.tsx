@@ -1,7 +1,7 @@
 import { ComponentPropsWithoutRef, ForwardedRef, forwardRef } from "react";
 
-import { containerStyle } from "ui/components/Dropdown/Dropdown.style";
-import Label from "ui/components/Label/Label";
+import Label from "../Label/Label";
+import { containerStyle } from "./Dropdown.style";
 
 interface DropdownContainerProps extends ComponentPropsWithoutRef<"div"> {
   label?: string;

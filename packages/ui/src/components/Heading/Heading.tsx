@@ -1,7 +1,7 @@
 import { ComponentPropsWithoutRef } from "react";
 
 
-import { headingStyle } from "ui/components/Heading/heading.style";
+import { headingStyle } from "./heading.style";
 
 type HeadingType = "H1" | "H2" | "H3" | "H4" | "H5" | "H6";
 

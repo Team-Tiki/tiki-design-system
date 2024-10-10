@@ -5,7 +5,7 @@ import React, {
   cloneElement,
 } from "react";
 
-import { tabListStyle } from "ui/components/Tab/style";
+import { tabListStyle } from "./style";
 
 interface TabListProps extends ComponentPropsWithoutRef<"ul"> {
   selectedTab: number;

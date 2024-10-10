@@ -1,6 +1,6 @@
 import { ComponentPropsWithoutRef } from "react";
 
-import { listStyle } from "ui/components/Dropdown/Dropdown.style";
+import { listStyle } from "./Dropdown.style";
 
 interface DropdownListProps extends ComponentPropsWithoutRef<"ul"> {
   isOpen?: boolean;

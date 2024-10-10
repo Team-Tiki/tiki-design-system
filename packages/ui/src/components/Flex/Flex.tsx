@@ -1,6 +1,6 @@
 import { ElementType, HTMLAttributes } from "react";
 
-import { FlexStyle, getFlexStyle } from "ui/components/Flex/Flex.style";
+import { FlexStyle, getFlexStyle } from "./Flex.style";
 
 interface FlexProps extends HTMLAttributes<HTMLDivElement> {
   tag?: ElementType;

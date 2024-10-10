@@ -1,5 +1,5 @@
-import Carousel from "ui/components/Carousel/Carousel";
-import CarouselItem from "ui/components/Carousel/CarouselItem";
+import Carousel from "./Carousel";
+import CarouselItem from "./CarouselItem";
 
 export { Carousel, CarouselItem as Item };
 

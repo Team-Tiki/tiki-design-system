@@ -1,6 +1,6 @@
 import { HTMLAttributes, ReactNode, forwardRef } from "react";
 
-import { useOutsideClick } from "ui/hooks/useOutsideClick";
+import { useOutsideClick } from "../../hooks/useOutsideClick";
 
 export interface MenuProps extends HTMLAttributes<HTMLDivElement> {
   children: ReactNode;

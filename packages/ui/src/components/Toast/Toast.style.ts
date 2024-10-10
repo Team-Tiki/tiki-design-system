@@ -2,7 +2,7 @@ import { css } from "@emotion/react";
 import { colors } from "@tiki/color";
 import { font } from "@tiki/font";
 
-import { fadeIn, fadeOut, moveUp } from "ui/animation";
+import { fadeIn, fadeOut, moveUp } from "../../animation";
 
 export const containerStyle = (isShown: boolean) =>
   css({

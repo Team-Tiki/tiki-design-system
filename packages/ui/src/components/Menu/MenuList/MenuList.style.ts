@@ -1,8 +1,8 @@
 import { css } from "@emotion/react";
 import { colors } from "@tiki/color";
 
-import { MenuListProps } from "ui/components/Menu/MenuList/MenuList";
-import { theme } from "ui/theme";
+import { theme } from "../../../theme";
+import { MenuListProps } from "./MenuList";
 
 export const containerStyle = css({
   display: "flex",

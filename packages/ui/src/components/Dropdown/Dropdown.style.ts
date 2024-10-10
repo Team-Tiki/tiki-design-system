@@ -1,6 +1,6 @@
 import { css } from "@emotion/react";
 import { colors } from "@tiki/color";
-import { theme } from "ui/theme";
+import { theme } from "../../theme";
 
 export const containerStyle = css({
   display: "flex",

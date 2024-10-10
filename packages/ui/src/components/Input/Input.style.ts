@@ -2,7 +2,7 @@ import { css } from "@emotion/react";
 import { colors } from "@tiki/color";
 import { font } from "@tiki/font";
 
-import { InputProps } from "ui/components/Input/Input";
+import { InputProps } from "./Input";
 
 export const containerStyle = css({
   display: "flex",

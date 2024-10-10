@@ -2,7 +2,7 @@ import { css } from "@emotion/react";
 import { colors } from "@tiki/color";
 import { font } from "@tiki/font";
 
-import { MenuItemProps } from "ui/components/Menu/MenuItem/MenuItem";
+import { MenuItemProps } from "./MenuItem";
 
 export const containerStyle = css({
   display: "flex",

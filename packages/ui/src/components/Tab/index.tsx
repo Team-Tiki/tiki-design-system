@@ -1,7 +1,7 @@
-import TabButton from "ui/components/Tab/TabButton";
-import TabList from "ui/components/Tab/TabList";
-import TabPanel from "ui/components/Tab/TabPanel";
-import TabContainer from "ui/components/Tab/Tabs";
+import TabButton from "./TabButton";
+import TabList from "./TabList";
+import TabPanel from "./TabPanel";
+import TabContainer from "./Tabs";
 
 export {
   TabButton as Button, TabList as List,

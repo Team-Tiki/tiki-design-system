@@ -1,6 +1,7 @@
 import { colors } from "@tiki/color";
 import { IcSpinner } from "@tiki/icon";
-import { rotate } from "ui/animation";
+
+import { rotate } from "../../animation";
 
 interface SpinnerProps {
   size: number;

@@ -2,7 +2,7 @@ import { css } from "@emotion/react";
 import { colors } from "@tiki/color";
 import { font } from "@tiki/font";
 
-import { TabProps } from "ui/components/Tab/TabButton";
+import { TabProps } from "./TabButton";
 
 export const tabListStyle = css({
   display: "flex",

@@ -1,8 +1,8 @@
 import { ComponentPropsWithRef, ForwardedRef, forwardRef } from "react";
 
-import * as Dropdown from "ui/components/Dropdown";
-import { itemStyle, overlayStyle } from "ui/components/Select/Select.style";
-import { scrollStyle } from "ui/components/Select/style";
+import * as Dropdown from "../Dropdown";
+import { itemStyle, overlayStyle } from "./Select.style";
+import { scrollStyle } from "./style";
 
 interface SelectProps extends Omit<ComponentPropsWithRef<"div">, "onSelect"> {
   isOpen?: boolean;

@@ -3,9 +3,9 @@ import { ComponentPropsWithoutRef, useEffect, useRef, useState } from "react";
 import { createPortal } from "react-dom";
 
 import { IcCaution, IcSuccess } from "@tiki/icon";
-import { containerStyle } from "ui/components/Toast/Toast.style";
 
-import { Timeout } from "ui/types";
+import { Timeout } from "../../types";
+import { containerStyle } from "./Toast.style";
 
 export interface ToastProps extends ComponentPropsWithoutRef<"div"> {
   variant?: "error" | "success" | "default";

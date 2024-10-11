@@ -1,6 +1,6 @@
 import { css } from "@emotion/react";
-import { colors } from "color";
-import { font } from "font";
+import { colors } from "@tiki/color";
+import { font } from "@tiki/font";
 
 export const overlayStyle = css({
   marginTop: "0.8rem",

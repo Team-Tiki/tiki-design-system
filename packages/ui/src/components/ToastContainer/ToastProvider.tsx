@@ -1,6 +1,6 @@
-import Toast from "ui/components/Toast/Toast";
+import Toast from "../Toast/Toast";
 
-import { useToastAction, useToastList } from "ui/store";
+import { useToastAction, useToastList } from "../../store";
 
 const ToastFactory = () => {
   const toastList = useToastList();

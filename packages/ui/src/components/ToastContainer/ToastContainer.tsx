@@ -1,4 +1,4 @@
-import { containerStyle } from "ui/components/ToastContainer/ToastContainer.style";
+import { containerStyle } from "./ToastContainer.style";
 
 const ToastContainer = () => <div css={containerStyle} id="toast-container" />;
 

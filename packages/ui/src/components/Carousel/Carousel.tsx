@@ -1,9 +1,9 @@
 import { Children, MouseEvent, MutableRefObject, PropsWithChildren, createContext } from 'react';
 
-import Arrow from 'ui/components/Carousel/Arrow';
-import { containerStyle, sliderStyle } from 'ui/components/Carousel/Carousel.style';
-import Dots from 'ui/components/Carousel/Dots';
-import { useCarousel } from 'ui/hooks/useCarousel';
+import { useCarousel } from '../../hooks/useCarousel';
+import Arrow from './Arrow';
+import { containerStyle, sliderStyle } from './Carousel.style';
+import Dots from './Dots';
 
 export interface CarouselProps extends PropsWithChildren {
   width?: string;
@@ -75,6 +75,5 @@ const Carousel = ({
     </CarouselContext.Provider>
   );
 };
-
 
 export default Carousel;

@@ -1,7 +1,7 @@
 import { css } from '@emotion/react';
 
-import { CarouselProps } from 'ui/components/Carousel/Carousel';
-import { theme } from 'ui/theme';
+import { theme } from '../../theme';
+import { CarouselProps } from './Carousel';
 
 export const itemStyle = (height: string) =>
   css({

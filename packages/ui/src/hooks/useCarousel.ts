@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import { flushSync } from "react-dom";
 
-import { useThrottle } from "ui/hooks/useThrottle";
+import { useThrottle } from "./useThrottle";
 
 export const useCarousel = (
   length: number,

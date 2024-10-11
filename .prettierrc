@@ -1,6 +1,4 @@
 {
-    "plugins": ["@trivago/prettier-plugin-sort-imports"],
-  
     "printWidth": 120,
     "tabWidth": 2,
     "semi": true,
@@ -9,21 +7,6 @@
     "requirePragma": false,
     "arrowParens": "always",
     "bracketSameLine": true,
-    "endOfLine": "auto",
-  
-    "importOrder": [
-      "^react(.*)",
-      "^@tanstack/(.*)$",
-      "^@emotion/(.*)$",
-      "^axios(.*)",
-      "^msw(.*)",
-      "^ui(.*)$",
-      "^color(.*)$",
-      "^font(.*)$",
-      "^icon(.*)$",
-      "^[./]"
-    ],
-    "importOrderSeparation": true,
-    "importOrderSortSpecifiers": true
-  }
+    "endOfLine": "auto"
+}
   

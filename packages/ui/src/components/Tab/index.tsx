@@ -1,10 +1,5 @@
-import TabButton from "ui/components/Tab/TabButton";
-import TabList from "ui/components/Tab/TabList";
-import TabPanel from "ui/components/Tab/TabPanel";
-import TabContainer from "ui/components/Tab/Tabs";
-
-export {
-  TabButton as Button, TabList as List,
-  TabPanel as Panel, TabContainer as Root
-};
+export { default as TabButton } from "./TabButton";
+export { default as TabList } from "./TabList";
+export { default as TabPanel } from "./TabPanel";
+export { default as TabContainer } from "./Tabs";
 

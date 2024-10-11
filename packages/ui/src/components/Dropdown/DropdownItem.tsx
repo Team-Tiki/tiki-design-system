@@ -1,6 +1,6 @@
 import { ComponentPropsWithoutRef } from "react";
 
-import { itemStyle } from "ui/components/Dropdown/Dropdown.style";
+import { itemStyle } from "./Dropdown.style";
 
 interface DropdownItemProps extends ComponentPropsWithoutRef<"li"> {
   onSelect?: () => void;

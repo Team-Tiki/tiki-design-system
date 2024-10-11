@@ -5,15 +5,15 @@ import {
   forwardRef,
 } from "react";
 
+import Label from "../Label/Label";
+import SupportingText from "../SupportingText/SupportingText";
 import {
   containerStyle,
   inputStyle,
   sizeStyle,
   variantStyle,
   warpperStyle,
-} from "ui/components/Input/Input.style";
-import Label from "ui/components/Label/Label";
-import SupportingText from "ui/components/SupportingText/SupportingText";
+} from "./Input.style";
 
 type InputSize = "small" | "medium" | "large";
 type InputVariant = "default" | "underline" | "colored";

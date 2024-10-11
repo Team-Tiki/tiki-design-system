@@ -9,7 +9,7 @@ import {
 import {
   containerStyle,
   variantStyle,
-} from "ui/components/Menu/MenuList/MenuList.style";
+} from "./MenuList.style";
 
 export type MenuVariant = "primary";
 

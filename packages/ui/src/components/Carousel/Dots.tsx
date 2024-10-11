@@ -1,7 +1,7 @@
 import { useContext } from 'react';
 
-import { CarouselContext } from 'ui/components/Carousel/Carousel';
-import { dotContainerStyle, dotStyle } from 'ui/components/Carousel/Carousel.style';
+import { CarouselContext } from './Carousel';
+import { dotContainerStyle, dotStyle } from './Carousel.style';
 
 interface DotsProps {
   length: number;

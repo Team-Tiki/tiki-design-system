@@ -1,8 +1,8 @@
 import { ComponentPropsWithRef, ForwardedRef, forwardRef } from "react";
 
-import * as Dropdown from "ui/components/Dropdown";
-import { itemStyle, overlayStyle } from "ui/components/Select/Select.style";
-import { scrollStyle } from "ui/components/Select/style";
+import { Dropdown, DropdownItem, DropdownList, DropdownTrigger } from "components/Dropdown";
+import { itemStyle, overlayStyle } from "./Select.style";
+import { scrollStyle } from "./style";
 
 interface SelectProps extends Omit<ComponentPropsWithRef<"div">, "onSelect"> {
   isOpen?: boolean;
@@ -17,20 +17,20 @@ const Select = (
   ref: ForwardedRef<HTMLDivElement>
 ) => {
   return (
-    <Dropdown.Root ref={ref} role="listbox" label={label} {...props}>
-      <Dropdown.Trigger as={trigger} />
-      <Dropdown.List css={[overlayStyle, scrollStyle]} isOpen={isOpen}>
+    <Dropdown ref={ref} role="listbox" label={label} {...props}>
+      <DropdownTrigger as={trigger} />
+      <DropdownList css={[overlayStyle, scrollStyle]} isOpen={isOpen}>
         {options.map((item) => (
-          <Dropdown.Item
+          <DropdownItem
             key={item}
             css={itemStyle}
             onSelect={() => onSelect?.(item)}
           >
             {item}
-          </Dropdown.Item>
+          </DropdownItem>
         ))}
-      </Dropdown.List>
-    </Dropdown.Root>
+      </DropdownList>
+    </Dropdown>
   );
 };
 

@@ -1,7 +1,7 @@
 import { ComponentPropsWithoutRef, useContext } from 'react';
 
-import { CarouselContext } from 'ui/components/Carousel/Carousel';
-import { itemStyle } from 'ui/components/Carousel/Carousel.style';
+import { CarouselContext } from './Carousel';
+import { itemStyle } from './Carousel.style';
 
 interface CarouselItemProps extends ComponentPropsWithoutRef<'div'> {
   index: number;

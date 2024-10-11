@@ -1,6 +1,6 @@
 import { create } from "zustand";
 
-import { ToastProps } from "ui/components/Toast/Toast";
+import { ToastProps } from "./components/Toast/Toast";
 
 export type Toast = {
   id: number;

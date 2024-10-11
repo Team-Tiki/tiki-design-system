@@ -1,10 +1,5 @@
-import TabButton from "./TabButton";
-import TabList from "./TabList";
-import TabPanel from "./TabPanel";
-import TabContainer from "./Tabs";
-
-export {
-  TabButton as Button, TabList as List,
-  TabPanel as Panel, TabContainer as Root
-};
+export { default as TabButton } from "./TabButton";
+export { default as TabList } from "./TabList";
+export { default as TabPanel } from "./TabPanel";
+export { default as TabContainer } from "./Tabs";
 

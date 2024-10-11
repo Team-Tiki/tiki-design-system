@@ -1,5 +1,12 @@
 {
     "extends": "@tiki/tsconfig/base.json",
-    "include": ["**/*.ts", "**/*.tsx", "**/*.svg", "svgr.d.ts"],
+    "compilerOptions": {
+    "jsx": "react-jsx",
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
+    "preserveWatchOutput": true,
+    "noEmit": true,
+  },
+    "include": ["**/*.ts", "**/*.tsx", "index.ts", "svgr.d.ts"],
     "exclude": ["node_modules", "dist"]
 }

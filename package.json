@@ -9,8 +9,14 @@
     "color": "pnpm --filter @tiki/color",
     "font": "pnpm --filter @tiki/font",
     "ui": "pnpm --filter @tiki/ui",
-    "tsconfig": "pnpm --filter @tiki/tsconfig"
+    "tsconfig": "pnpm --filter @tiki/tsconfig",
+    "test": "pnpm --filter test",
+    "storybook": "pnpm --filter @tiki/storybook"
   },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
   "packageManager": "pnpm@9.1.3",
   "engines": {
     "node": ">=18",

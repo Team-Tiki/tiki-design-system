@@ -1,0 +1,30 @@
+{
+  "name": "@tiki/storybook",
+  "version": "1.0.0",
+  "description": "Tiki Design System Storybook",
+  "scripts": {
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@chromatic-com/storybook": "^1.9.0",
+    "@emotion/babel-preset-css-prop": "^11.12.0",
+    "@storybook/addon-essentials": "^8.3.5",
+    "@storybook/addon-interactions": "^8.3.5",
+    "@storybook/addon-links": "^8.3.5",
+    "@storybook/addon-onboarding": "^8.3.5",
+    "@storybook/blocks": "^8.3.5",
+    "@storybook/nextjs": "^8.3.5",
+    "@storybook/react": "^8.3.5",
+    "@storybook/test": "^8.3.5",
+    "@tiki/tsconfig": "workspace:^",
+    "storybook": "^8.3.5"
+  },
+  "dependencies": {
+    "@tiki/color": "workspace:^",
+    "@tiki/icon": "workspace:^",
+    "@tiki/ui": "workspace:^"
+  }
+}

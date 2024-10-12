@@ -4,9 +4,8 @@ const SvgIcEclipse = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     xmlnsXlink="http://www.w3.org/1999/xlink"
-    width={92}
-    height={92}
     fill="none"
+    viewBox="0 0 92 92"
     {...props}>
     <rect width={86} height={86} x={3} y={3} fill="#fff" rx={43} />
     <rect width={86} height={86} x={3} y={3} stroke="#FAFAFA" strokeWidth={6} rx={43} />

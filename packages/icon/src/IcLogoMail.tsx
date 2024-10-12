@@ -1,7 +1,7 @@
 import * as React from 'react';
 import type { SVGProps } from 'react';
 const SvgIcLogoMail = (props: SVGProps<SVGSVGElement>) => (
-  <svg xmlns="http://www.w3.org/2000/svg" width={230} height={83} fill="none" {...props}>
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 230 83" {...props}>
     <g fill="#353F9B" clipPath="url(#ic_logo_mail_svg__a)">
       <path
         fillRule="evenodd"

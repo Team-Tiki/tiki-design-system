@@ -1,7 +1,7 @@
 import * as React from 'react';
 import type { SVGProps } from 'react';
 const SvgIcLogoTikiMd = (props: SVGProps<SVGSVGElement>) => (
-  <svg xmlns="http://www.w3.org/2000/svg" width={108} height={40} fill="none" {...props}>
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 108 40" {...props}>
     <g fill="#353F9B" clipPath="url(#ic_logo_tiki_md_svg__a)">
       <path
         fillRule="evenodd"

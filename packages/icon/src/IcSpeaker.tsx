@@ -4,9 +4,8 @@ const SvgIcSpeaker = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     xmlnsXlink="http://www.w3.org/1999/xlink"
-    width={24}
-    height={24}
     fill="none"
+    viewBox="0 0 24 24"
     {...props}>
     <path fill="url(#ic_speaker_svg__a)" d="M0 0h24v24H0z" />
     <defs>

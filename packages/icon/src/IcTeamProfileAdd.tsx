@@ -1,7 +1,7 @@
 import * as React from 'react';
 import type { SVGProps } from 'react';
 const SvgIcTeamProfileAdd = (props: SVGProps<SVGSVGElement>) => (
-  <svg xmlns="http://www.w3.org/2000/svg" width={201} height={200} fill="none" {...props}>
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 201 200" {...props}>
     <rect width={200} height={200} x={0.5} fill="#FAFAFA" rx={57.143} />
     <path
       stroke="#CDCDCD"

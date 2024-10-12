@@ -1,7 +1,7 @@
 import * as React from 'react';
 import type { SVGProps } from 'react';
 const SvgIcDefaultProfile = (props: SVGProps<SVGSVGElement>) => (
-  <svg xmlns="http://www.w3.org/2000/svg" width={244} height={140} fill="none" {...props}>
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 244 140" {...props}>
     <path fill="#EDF0FD" d="M0 0h243.5v140H0z" />
     <g fill="#fff" clipPath="url(#ic_default_profile_svg__a)">
       <path

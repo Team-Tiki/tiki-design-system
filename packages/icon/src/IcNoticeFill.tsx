@@ -1,7 +1,7 @@
 import * as React from 'react';
 import type { SVGProps } from 'react';
 const SvgIcNoticeFill = (props: SVGProps<SVGSVGElement>) => (
-  <svg xmlns="http://www.w3.org/2000/svg" width={46} height={46} fill="none" {...props}>
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 46 46" {...props}>
     <rect width={43} height={43} x={1.5} y={1.5} fill="#fff" rx={21.5} />
     <rect width={43} height={43} x={1.5} y={1.5} stroke="#FAFAFA" strokeWidth={3} rx={21.5} />
     <path fill="#353F9B" d="M16 20.5v3h-1c-.6 0-1-.4-1-1v-1c0-.6.4-1 1-1z" />

@@ -6,9 +6,9 @@
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "scripts": {
-    "build": "tsup icons --format cjs,esm --dts",
+    "build": "tsup index.ts --format cjs,esm --dts",
     "generate": "node generateIcon.js",
-    "svgr": "rm -rf src/* && npx @svgr/cli --typescript --out-dir src --ignore-existing -- assets"
+    "svgr": "rm -rf src/* && npx @svgr/cli --typescript --no-dimensions --out-dir src --ignore-existing -- assets"
   },
   "keywords": [],
   "author": "",

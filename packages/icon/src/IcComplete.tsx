@@ -4,9 +4,8 @@ const SvgIcComplete = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     xmlnsXlink="http://www.w3.org/1999/xlink"
-    width={301}
-    height={300}
     fill="none"
+    viewBox="0 0 301 300"
     {...props}>
     <path fill="url(#ic_complete_svg__a)" d="M.5 0h300v300H.5z" />
     <defs>

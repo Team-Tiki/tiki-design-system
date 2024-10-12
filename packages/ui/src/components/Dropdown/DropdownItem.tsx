@@ -1,15 +1,15 @@
-import { ComponentPropsWithoutRef } from "react";
+import { ComponentPropsWithoutRef } from 'react';
 
-import { itemStyle } from "./Dropdown.style";
+import { itemStyle } from './Dropdown.style';
 
-interface DropdownItemProps extends ComponentPropsWithoutRef<"li"> {
+interface DropdownItemProps extends ComponentPropsWithoutRef<'li'> {
   onSelect?: () => void;
 }
 
 /* eslint-disable jsx-a11y/no-noninteractive-element-to-interactive-role */
 const DropdownItem = ({ onSelect, children, ...props }: DropdownItemProps) => {
   const handleKeyDown = (e: React.KeyboardEvent<HTMLLIElement>) => {
-    if (e.key === "Enter") {
+    if (e.key === 'Enter') {
       onSelect?.();
     }
   };
@@ -21,8 +21,7 @@ const DropdownItem = ({ onSelect, children, ...props }: DropdownItemProps) => {
       tabIndex={0}
       onKeyDown={handleKeyDown}
       onClick={onSelect}
-      {...props}
-    >
+      {...props}>
       {children}
     </li>
   );

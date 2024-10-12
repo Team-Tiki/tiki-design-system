@@ -1,25 +1,13 @@
-import {
-  ForwardedRef,
-  InputHTMLAttributes,
-  ReactNode,
-  forwardRef,
-} from "react";
+import { ForwardedRef, InputHTMLAttributes, ReactNode, forwardRef } from 'react';
 
-import Label from "../Label/Label";
-import SupportingText from "../SupportingText/SupportingText";
-import {
-  containerStyle,
-  inputStyle,
-  sizeStyle,
-  variantStyle,
-  warpperStyle,
-} from "./Input.style";
+import Label from '../Label/Label';
+import SupportingText from '../SupportingText/SupportingText';
+import { containerStyle, inputStyle, sizeStyle, variantStyle, warpperStyle } from './Input.style';
 
-type InputSize = "small" | "medium" | "large";
-type InputVariant = "default" | "underline" | "colored";
+type InputSize = 'small' | 'medium' | 'large';
+type InputVariant = 'default' | 'underline' | 'colored';
 
-export interface InputProps
-  extends Omit<InputHTMLAttributes<HTMLInputElement>, "size"> {
+export interface InputProps extends Omit<InputHTMLAttributes<HTMLInputElement>, 'size'> {
   variant?: InputVariant;
   size?: InputSize; //default: medium(p: 1.2rem)
   label?: string;
@@ -31,8 +19,8 @@ export interface InputProps
 
 const Input = (
   {
-    variant = "default",
-    size = "medium",
+    variant = 'default',
+    size = 'medium',
     label,
     LeftIcon,
     isError = false,
@@ -45,9 +33,7 @@ const Input = (
   return (
     <article css={containerStyle}>
       {label && <Label id={label}>{label}</Label>}
-      <div
-        css={[warpperStyle, variantStyle(variant, isError), sizeStyle(size)]}
-      >
+      <div css={[warpperStyle, variantStyle(variant, isError), sizeStyle(size)]}>
         {LeftIcon}
         <input ref={ref} css={inputStyle} {...props} />
       </div>

@@ -5,10 +5,9 @@
     "target": "ES2020",
     "lib": ["ESNext", "DOM", "DOM.Iterable"],
     "composite": false,
-    "declaration": true,
-    "declarationMap": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
     "inlineSources": false,
     "isolatedModules": true,
     "module": "ESNext",
@@ -18,7 +17,7 @@
     "preserveWatchOutput": true,
     "skipLibCheck": true,
     "strict": true,
-    "noFallthroughCasesInSwitch": true,
+    "noFallthroughCasesInSwitch": true
   },
   "exclude": ["node_modules"],
   "include": ["**/*.ts", "**/*.tsx"]

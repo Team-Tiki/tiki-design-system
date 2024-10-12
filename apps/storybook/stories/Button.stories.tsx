@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { Button, type ButtonProps } from '@tiki/ui';
+import { Button } from '@tiki/ui';
 
 const meta = {
   title: 'Common/Button',
@@ -32,7 +32,7 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-const createButtonStory = (variant: ButtonProps['variant']) => ({
+const createButtonStory = (variant: 'primary' | 'secondary' | 'text' | 'action') => ({
   args: {
     variant,
   },

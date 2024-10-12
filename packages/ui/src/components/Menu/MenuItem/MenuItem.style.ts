@@ -6,6 +6,7 @@ import { MenuItemProps } from "./MenuItem";
 
 export const containerStyle = css({
   display: "flex",
+  alignItems: "center",
   gap: "0.8rem",
 
   cursor: "pointer",
@@ -20,10 +21,6 @@ export const variantStyle = (variant: Required<MenuItemProps>["variant"]) => {
       borderRadius: "8px",
       border: 0,
 
-      ...font.text.body06,
-      color: colors.black,
-      fontWeight: 600,
-
       ":hover, :focus": {
         outline: 0,
         backgroundColor: colors.blue_100,
@@ -33,3 +30,15 @@ export const variantStyle = (variant: Required<MenuItemProps>["variant"]) => {
 
   return style[variant];
 };
+
+export const textStyle = (variant: Required<MenuItemProps>["variant"]) => {
+  const style = {
+    primary: {
+      ...font.text.body06,
+      color: colors.black,
+      fontWeight: 600,
+    },
+  };
+
+  return style[variant];
+}

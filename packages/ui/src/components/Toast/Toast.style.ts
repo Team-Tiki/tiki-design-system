@@ -17,9 +17,6 @@ export const containerStyle = (isShown: boolean) =>
     color: colors.white,
     backgroundColor: "rgba(44, 48, 48, 0.8)",
 
-    fontSize: font.text.body06.fontSize,
-    lineHeight: font.text.body06.lineHeight,
-
     animation: isShown
       ? `${moveUp} 0.2s ease-in, ${fadeIn} .2s ease-in`
       : `${fadeOut} .2s ease-in forwards`,
@@ -29,3 +26,8 @@ export const containerStyle = (isShown: boolean) =>
       height: "2rem",
     },
   });
+
+export const textStyle = css({
+  fontSize: font.text.body06.fontSize,
+  lineHeight: font.text.body06.lineHeight,
+})

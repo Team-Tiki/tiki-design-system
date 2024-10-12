@@ -75,10 +75,9 @@ export const variantStyle = (
           color: colors.gray_500,
           ...font.text.body06,
         },
-
-        "&:focus-within": {
-          boxShadow: `inset 0px 0px 0px 1px ${focusBorderColor}`,
-        },
+      },
+      "&:focus-within": {
+        boxShadow: `inset 0px 0px 0px 1px ${focusBorderColor}`,
       },
     },
   };

@@ -1,6 +1,5 @@
 .DS_Store
 node_modules
-.turbo
 *.log
 .next
 dist
@@ -11,5 +10,4 @@ dist-ssr
 server/dist
 public/dist
 storybook-static/
-
 *storybook.log

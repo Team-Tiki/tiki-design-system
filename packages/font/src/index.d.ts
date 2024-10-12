@@ -1,6 +1,6 @@
 import "@emotion/react";
 
-import { HeadingTypes, TextTypes } from "@font/font";
+import { HeadingTypes, TextTypes } from "./font";
 
 declare module "@emotion/react" {
   export interface Theme {

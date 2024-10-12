@@ -7,7 +7,7 @@ import { IcArrowLeft, IcArrowRight } from '@tiki/icon';
 
 import { colors } from '@tiki/color';
 import { Button, Carousel, CarouselItem, Heading } from '@tiki/ui';
-import { theme } from '@tiki/ui/src/theme';
+import { theme } from '@tiki/ui/src/style';
 import img1 from "../assets/advBannerClub1.png";
 import img2 from "../assets/advBannerClub2.png";
 import img3 from "../assets/advBannerClub3.png";

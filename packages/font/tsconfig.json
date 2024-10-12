@@ -1,0 +1,5 @@
+{
+    "extends": "@tiki/tsconfig/base.json",
+    "include": ["**/*.ts", "**/*.tsx", "**/*.css"],
+    "exclude": ["node_modules", "dist"]
+}

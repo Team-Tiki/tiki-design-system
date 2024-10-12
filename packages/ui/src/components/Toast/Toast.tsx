@@ -5,7 +5,7 @@ import { createPortal } from "react-dom";
 import { IcCaution, IcSuccess } from "@tiki/icon";
 
 import { Timeout } from "../../types";
-import { containerStyle } from "./Toast.style";
+import { containerStyle, textStyle } from "./Toast.style";
 
 export interface ToastProps extends ComponentPropsWithoutRef<"div"> {
   variant?: "error" | "success" | "default";
@@ -61,7 +61,7 @@ const Toast = ({
         css={containerStyle(isShown)}
         {...props}
       >
-        <span>{children}</span>
+        <span css={textStyle}>{children}</span>
         <Icon />
       </div>,
       document.getElementById("toast-container") as Element

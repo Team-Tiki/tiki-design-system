@@ -24,9 +24,9 @@ export const tabDefaultStyle = () =>
 export const tabVariantStyle = (variant: Required<TabProps>["variant"]) => {
   const style = {
     round: css({
-      gap: "0.8rem",
+      gap: "8px",
 
-      padding: "1.6rem 2rem",
+      padding: "16px 20px",
 
       font: `${font.text.body04}`,
       fontWeight: 500,

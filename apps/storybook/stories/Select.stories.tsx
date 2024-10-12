@@ -57,7 +57,7 @@ export const Default: Story = {
         trigger={
           <Button css={buttonStyle} onClick={toggle}>
             {selected || 'Select'}
-            <IcArrowDown />
+            <IcArrowDown width={16} height={16} />
           </Button>
         }
       />

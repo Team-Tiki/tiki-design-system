@@ -19,7 +19,7 @@ const generate = () => {
     }))
 
     fs.writeFileSync(outputDir, files.map(file => 
-        `export { default as ${file.fileName} } from "./src/${file.file}"`
+        `export { default as ${file.fileName} } from "./src/${file.fileName}"`
     ).join('\n'))
 }
 

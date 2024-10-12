@@ -1,6 +1,6 @@
 import { css } from '@emotion/react';
 
-import { theme } from '../../theme';
+import { theme } from '../../style';
 import { CarouselProps } from './Carousel';
 
 export const itemStyle = (height: string) =>
@@ -56,8 +56,8 @@ export const arrowStyle = (position: 'left' | 'right') =>
     position: 'absolute',
     top: 0,
     bottom: 0,
-    left: position === 'left' ? '1.6rem' : 'auto',
-    right: position === 'right' ? '1.6rem' : 'auto',
+    left: position === 'left' ? '16px' : 'auto',
+    right: position === 'right' ? '16px' : 'auto',
 
     display: 'flex',
     justifyContent: 'center',
@@ -65,8 +65,8 @@ export const arrowStyle = (position: 'left' | 'right') =>
 
     margin: 'auto 0',
 
-    width: '3.2rem',
-    height: '3.2rem',
+    width: '32px',
+    height: '32px',
 
     zIndex: theme.zIndex.overlayBottom,
 
@@ -80,10 +80,10 @@ export const arrowStyle = (position: 'left' | 'right') =>
 
 export const dotContainerStyle = css`
   display: flex;
-  gap: 0.8rem;
+  gap: 8px;
 
   position: absolute;
-  bottom: 1.6rem;
+  bottom: 16px;
   left: 50%;
 
   transform: translateX(-50%);
@@ -91,8 +91,8 @@ export const dotContainerStyle = css`
 
 export const dotStyle = (isCurrent: boolean) =>
   css({
-    width: '0.8rem',
-    height: '0.8rem',
+    width: '8px',
+    height: '8px',
 
     opacity: isCurrent ? 1 : 0.3,
 

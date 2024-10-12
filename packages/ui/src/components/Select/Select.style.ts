@@ -3,11 +3,11 @@ import { colors } from "@tiki/color";
 import { font } from "@tiki/font";
 
 export const overlayStyle = css({
-  marginTop: "0.8rem",
+  marginTop: "8px",
 
   borderRadius: "8px",
 
-  maxHeight: "48rem",
+  maxHeight: "480px",
 
   overflowY: "auto",
   overscrollBehavior: "contain",
@@ -16,8 +16,8 @@ export const overlayStyle = css({
 export const itemStyle = css({
   display: "flex",
 
-  padding: "1rem 1.2rem",
-  margin: "0.4rem 1.2rem",
+  padding: "10px 12px",
+  margin: "4px 12px",
   borderRadius: "8px",
 
   fontSize: font.text.body05.fontSize,

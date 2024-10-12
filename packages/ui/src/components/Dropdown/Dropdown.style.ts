@@ -1,11 +1,11 @@
 import { css } from "@emotion/react";
 import { colors } from "@tiki/color";
-import { theme } from "../../theme";
+import { theme } from "../../style";
 
 export const containerStyle = css({
   display: "flex",
   flexDirection: "column",
-  gap: "0.4rem",
+  gap: "4px",
 
   position: "relative",
 });

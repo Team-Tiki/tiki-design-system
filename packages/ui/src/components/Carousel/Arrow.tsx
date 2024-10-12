@@ -11,9 +11,9 @@ const Arrow = ({ position, onClick }: ArrowProps) => {
   return (
     <button type="button" onClick={onClick} css={arrowStyle(position)}>
       {position === 'left' ? (
-        <IcArrowLeftWhite width="1.6rem" height="1.6rem" />
+        <IcArrowLeftWhite width="16px" height="16px" />
       ) : (
-        <IcArrowRightWhite width="1.6rem" height="1.6rem" />
+        <IcArrowRightWhite width="16px" height="16px" />
       )}
     </button>
   );

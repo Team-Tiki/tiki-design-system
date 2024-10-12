@@ -2,14 +2,22 @@
   "name": "@tiki/icon",
   "version": "1.0.0",
   "description": "",
-  "main": "index.ts",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
   "scripts": {
-    "generateIcon": "node generateIcon.js"
+    "build": "tsup index.ts --format cjs,esm --dts",
+    "generate": "node generateIcon.js",
+    "svgr": "rm -rf src/* && npx @svgr/cli --typescript --no-dimensions --out-dir src --ignore-existing -- assets"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@tiki/tsconfig": "workspace:^"
+  },
+  "dependencies": {
+    "@svgr/cli": "^8.1.0",
+    "tsup": "^8.3.0"
   }
 }

@@ -9,11 +9,11 @@ export const buttonStyle = css({
   display: "flex",
   justifyContent: "center",
   alignItems: "center",
-  gap: "0.8rem",
+  gap: "8px",
 
   width: "100%",
 
-  padding: "1.6rem 2rem",
+  padding: "16px 24px",
 
   border: "none",
   borderRadius: "8px",

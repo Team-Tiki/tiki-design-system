@@ -1,16 +1,8 @@
 {
     "extends": "@tiki/tsconfig/react-components.json",
     "compilerOptions": {
-      "jsx": "preserve"
+      "jsx": "react-jsx",
     },
-    "include": [
-      "**/*.ts",
-      "**/*.tsx",
-      "**/*.js",
-      "**/*.jsx",
-      "**/*.stories.tsx",
-    ],
-    "exclude": [
-      "node_modules"
-    ]
+    "include": ["**/*.ts", "**/*.tsx", "**/*.stories.tsx"],
+    "exclude": ["node_modules"]
 }

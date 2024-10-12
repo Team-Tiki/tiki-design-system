@@ -9,23 +9,25 @@ export const containerStyle = (isShown: boolean) =>
     display: "flex",
     justifyContent: "center",
     alignItems: "center",
-    gap: "0.6rem",
+    gap: "6px",
 
-    padding: "1rem 2rem",
+    padding: "10px 20px",
 
     borderRadius: "24px",
     color: colors.white,
     backgroundColor: "rgba(44, 48, 48, 0.8)",
-
-    fontSize: font.text.body06.fontSize,
-    lineHeight: font.text.body06.lineHeight,
 
     animation: isShown
       ? `${moveUp} 0.2s ease-in, ${fadeIn} .2s ease-in`
       : `${fadeOut} .2s ease-in forwards`,
 
     "& > svg": {
-      width: "2rem",
-      height: "2rem",
+      width: "20px",
+      height: "20px",
     },
   });
+
+export const textStyle = css({
+  fontSize: font.text.body06.fontSize,
+  lineHeight: font.text.body06.lineHeight,
+})

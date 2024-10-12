@@ -3,6 +3,7 @@ import { HTMLAttributes, ReactNode } from "react";
 import { MenuVariant } from "../MenuList/MenuList";
 import {
   containerStyle,
+  textStyle,
   variantStyle,
 } from "./MenuItem.style";
 
@@ -31,7 +32,7 @@ const MenuItem = ({
       {...props}
     >
       {LeftIcon}
-      <p>{children}</p>
+      <p css={textStyle(variant)}>{children}</p>
     </li>
   );
 };

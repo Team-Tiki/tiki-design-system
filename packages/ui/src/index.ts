@@ -18,4 +18,5 @@ export { default as ToastContainer } from "./components/ToastContainer/ToastCont
 export { default as ToastProvider } from "./components/ToastContainer/ToastProvider";
 export { useCarousel, useOutsideClick, useOverlay, useThrottle } from "./hooks";
 export { useToastAction, useToastList } from "./store";
+export { GlobalStyle } from "./style";
 

@@ -2,7 +2,7 @@ import { css } from "@emotion/react";
 import { colors } from "@tiki/color";
 
 import { fadeIn } from "../../animation";
-import { theme } from "../../theme";
+import { theme } from "../../style";
 
 export const backgroundStyle = css({
   display: "flex",

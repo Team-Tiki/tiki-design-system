@@ -1,7 +1,7 @@
 import { css } from "@emotion/react";
 import { colors } from "@tiki/color";
 
-import { theme } from "../../../theme";
+import { theme } from "../../../style";
 import { MenuListProps } from "./MenuList";
 
 export const containerStyle = css({

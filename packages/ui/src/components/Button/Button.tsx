@@ -1,26 +1,17 @@
-import { ButtonHTMLAttributes } from "react";
+import { ButtonHTMLAttributes } from 'react';
 
-import { Size } from "../../types";
+import { Size } from '../../types';
 
-import { buttonStyle, sizeStyle, variantStyle } from "./Button.style";
+import { buttonStyle, sizeStyle, variantStyle } from './Button.style';
 
 export interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
-  variant?: "primary" | "secondary" | "text" | "action";
-  size?: Extract<Size, "large" | "medium" | "small">;
+  variant?: 'primary' | 'secondary' | 'text' | 'action';
+  size?: Extract<Size, 'large' | 'medium' | 'small'>;
 }
 
-const Button = ({
-  variant = "secondary",
-  children,
-  size = "medium",
-  ...props
-}: ButtonProps) => {
+const Button = ({ variant = 'secondary', children, size = 'medium', ...props }: ButtonProps) => {
   return (
-    <button
-      type="button"
-      css={[buttonStyle, variantStyle(variant), sizeStyle(size)]}
-      {...props}
-    >
+    <button type="button" css={[buttonStyle, variantStyle(variant), sizeStyle(size)]} {...props}>
       {children}
     </button>
   );

@@ -1,13 +1,9 @@
-import React, { useEffect, useRef, useState } from "react";
-import { flushSync } from "react-dom";
+import React, { useEffect, useRef, useState } from 'react';
+import { flushSync } from 'react-dom';
 
-import { useThrottle } from "./useThrottle";
+import { useThrottle } from './useThrottle';
 
-export const useCarousel = (
-  length: number,
-  autoLoop?: boolean,
-  autoLoopDelay?: number
-) => {
+export const useCarousel = (length: number, autoLoop?: boolean, autoLoopDelay?: number) => {
   /**
    * container hover 상태
    * Item 요소 혹은 Arrow 에 마우스 hover 시 자동 Loop 중지
@@ -31,9 +27,9 @@ export const useCarousel = (
         });
 
         itemRef.current?.scrollIntoView({
-          behavior: "smooth",
-          block: "nearest",
-          inline: "center",
+          behavior: 'smooth',
+          block: 'nearest',
+          inline: 'center',
         });
       }, 800);
     }
@@ -50,9 +46,9 @@ export const useCarousel = (
         });
 
         itemRef.current?.scrollIntoView({
-          behavior: "smooth",
-          block: "nearest",
-          inline: "center",
+          behavior: 'smooth',
+          block: 'nearest',
+          inline: 'center',
         });
       }, 800);
     }
@@ -66,9 +62,9 @@ export const useCarousel = (
       });
 
       itemRef.current?.scrollIntoView({
-        behavior: "smooth",
-        block: "nearest",
-        inline: "center",
+        behavior: 'smooth',
+        block: 'nearest',
+        inline: 'center',
       });
     }
   };
@@ -90,9 +86,9 @@ export const useCarousel = (
         });
 
         itemRef.current?.scrollIntoView({
-          behavior: "smooth",
-          block: "nearest",
-          inline: "center",
+          behavior: 'smooth',
+          block: 'nearest',
+          inline: 'center',
         });
       }, autoLoopDelay);
 

@@ -9,9 +9,9 @@ export const containerStyle = (isShown: boolean) =>
     display: "flex",
     justifyContent: "center",
     alignItems: "center",
-    gap: "0.6rem",
+    gap: "6px",
 
-    padding: "1rem 2rem",
+    padding: "10px 20px",
 
     borderRadius: "24px",
     color: colors.white,
@@ -22,8 +22,8 @@ export const containerStyle = (isShown: boolean) =>
       : `${fadeOut} .2s ease-in forwards`,
 
     "& > svg": {
-      width: "2rem",
-      height: "2rem",
+      width: "20px",
+      height: "20px",
     },
   });
 

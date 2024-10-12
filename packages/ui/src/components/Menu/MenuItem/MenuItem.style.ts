@@ -7,7 +7,7 @@ import { MenuItemProps } from "./MenuItem";
 export const containerStyle = css({
   display: "flex",
   alignItems: "center",
-  gap: "0.8rem",
+  gap: "8px",
 
   cursor: "pointer",
 });
@@ -15,7 +15,7 @@ export const containerStyle = css({
 export const variantStyle = (variant: Required<MenuItemProps>["variant"]) => {
   const style = {
     primary: {
-      padding: "0.8rem",
+      padding: "8px",
 
       backgroundColor: colors.gray_100,
       borderRadius: "8px",

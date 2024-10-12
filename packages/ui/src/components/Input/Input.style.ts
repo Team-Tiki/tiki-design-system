@@ -8,7 +8,7 @@ export const containerStyle = css({
   display: "flex",
   flexDirection: "column",
 
-  gap: "0.8rem",
+  gap: "8px",
 
   width: "100%",
 });
@@ -17,14 +17,14 @@ export const inputSupportStyle = css({
   display: "flex",
   flexDirection: "column",
 
-  gap: "0.8rem",
+  gap: "8px",
 });
 
 export const warpperStyle = css({
   display: "flex",
   alignItems: "center",
 
-  paddingLeft: "0.8rem",
+  paddingLeft: "8px",
 });
 
 export const inputStyle = css({
@@ -87,9 +87,9 @@ export const variantStyle = (
 
 export const sizeStyle = (size: Required<InputProps>["size"]) => {
   const style = {
-    small: { padding: "0.8rem 1.2rem" },
-    medium: { padding: "1.2rem 1.2rem" },
-    large: { padding: "1.6rem 1.2rem" },
+    small: { padding: "8px 12px" },
+    medium: { padding: "12px 12px" },
+    large: { padding: "16px 12px" },
   };
 
   return style[size];

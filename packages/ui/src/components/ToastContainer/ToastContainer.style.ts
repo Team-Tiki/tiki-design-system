@@ -7,10 +7,10 @@ export const containerStyle = css({
   flexDirection: "column",
   justifyContent: "center",
   alignItems: "center",
-  gap: "1.6rem",
+  gap: "16px",
 
   position: "fixed",
-  bottom: "4rem",
+  bottom: "40px",
 
   width: "100%",
 

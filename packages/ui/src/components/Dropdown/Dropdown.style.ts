@@ -1,20 +1,20 @@
-import { css } from "@emotion/react";
-import { colors } from "@tiki/color";
-import { theme } from "../../style";
+import { css } from '@emotion/react';
+import { colors } from '@tiki/color';
+import { theme } from '../../style';
 
 export const containerStyle = css({
-  display: "flex",
-  flexDirection: "column",
-  gap: "4px",
+  display: 'flex',
+  flexDirection: 'column',
+  gap: '4px',
 
-  position: "relative",
+  position: 'relative',
 });
 
 export const listStyle = css({
-  position: "absolute",
-  top: "100%",
+  position: 'absolute',
+  top: '100%',
 
-  width: "100%",
+  width: '100%',
 
   zIndex: theme.zIndex.overlayHigh,
 
@@ -22,7 +22,7 @@ export const listStyle = css({
 });
 
 export const itemStyle = css({
-  textAlign: "center",
+  textAlign: 'center',
 
-  cursor: "pointer",
+  cursor: 'pointer',
 });

@@ -1,14 +1,28 @@
 {
-    "extends": "@tiki/tsconfig/base.json",
-    "compilerOptions": {
-      "jsx": "react-jsx",
-      "forceConsistentCasingInFileNames": true,
-      "isolatedModules": true,
-      "preserveWatchOutput": true,
-      "noEmit": true,
-      "rootDir": ".",
-      "outDir": "./dist"
+  "compilerOptions": {
+    "allowJs": true,
+    "noEmit": true,
+    "rootDir": "./",
+    "baseUrl": "./src",
+    "outDir": "./dist",
+    "composite": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "inlineSources": false,
+    "isolatedModules": true,
+    "module": "CommonJS",
+    "jsx": "react-jsx",
+    "preserveValueImports": false,
+    "incremental": true,
+    "allowImportingTsExtensions": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "preserveWatchOutput": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noFallthroughCasesInSwitch": true
   },
-    "include": ["**/*.ts", "**/*.tsx", "index.ts", "svgr.d.ts"],
-    "exclude": ["node_modules", "dist"]
+  "include": ["**/*.ts", "**/*.tsx", "svgr.d.ts"],
+  "exclude": ["node_modules", "dist"]
 }

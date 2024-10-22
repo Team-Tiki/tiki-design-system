@@ -3,23 +3,27 @@
   "version": "1.0.0",
   "description": "Tiki UI Library",
   "sideEffects": false,
+  "type": "module",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "scripts": {
     "build": "tsup --format cjs,esm --dts --sourcemap --onSuccess 'echo tsup completed!'",
-    "clean": "rm -rf dist"
+    "clean": "rm -rf dist",
+    "lint": "eslint ."
   },
   "dependencies": {
     "@tiki/color": "workspace:^",
+    "@tiki/eslint-config": "workspace:^",
     "@tiki/font": "workspace:^",
     "@tiki/icon": "workspace:^",
+    "react-dom": "^18.3.1",
     "tsup": "^8.3.0",
-    "zustand": "5.0.0-rc.2",
-    "react-dom": "^18.3.1"
+    "zustand": "5.0.0-rc.2"
   },
   "devDependencies": {
-    "@tiki/tsconfig": "workspace:^"
+    "@tiki/tsconfig": "workspace:^",
+    "typescript": "^5.6.2"
   },
   "peerDependencies": {
     "@emotion/react": "^11.13.3",

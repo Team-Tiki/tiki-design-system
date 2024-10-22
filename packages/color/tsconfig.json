@@ -1,5 +1,5 @@
 {
-    "extends": "@tiki/tsconfig/react-components.json",
-    "include": ["."],
-    "exclude": ["dist", "build", "node_modules"],
+  "extends": "@tiki/tsconfig/base.json",
+  "include": ["**/*.ts", "**/*.tsx"],
+  "exclude": ["node_modules"]
 }
